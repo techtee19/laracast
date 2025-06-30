@@ -1,7 +1,5 @@
 <?php require 'layout/head.php' ?>
-
   <?php require 'layout/nav.php' ?>
-
   <?php require 'layout/banner.php' ?>
 
   <main>
