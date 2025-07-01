@@ -1,5 +1,7 @@
 <?php require 'layout/head.php' ?>
   <?php require 'layout/nav.php' ?>
+
+  <?php $heading = 'Contact' ?>
   <?php require 'layout/banner.php' ?>
 
   <main>

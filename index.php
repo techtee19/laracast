@@ -1,5 +1,9 @@
 <?php
-require 'utills.php';
-$heading = 'Home';
 
-require 'views/index.view.php';
+require 'utills.php';
+
+$uri = $_SERVER['REQUEST_URI'];
+
+if ($uri === '/') {
+    require 'controllers/index.php';
+}
